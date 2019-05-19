@@ -11,13 +11,13 @@ Learn more at http://web2py.com
     cp examples/app.yaml ./
     cp handlers/gaehandler.py ./
     
-Then edit ./app.yaml and replace "yourappname" with yourappname.
+Then edit `./app.yaml` and replace "yourappname" with yourappname.
 
 ## Import about this GIT repo
 
 An important part of web2py is the Database Abstraction Layer (DAL). In early 2015 this was decoupled into a separate code-base (PyDAL). In terms of git, it is a sub-module of the main repository.
 
-The use of a sub-module requires a one-time use of the --recursive flag for git clone if you are cloning web2py from scratch.
+The use of a sub-module requires a one-time use of the `--recursive` flag for git clone if you are cloning web2py from scratch.
 
     git clone --recursive https://github.com/web2py/web2py.git
 
@@ -25,7 +25,7 @@ If you have an existing repository, the commands below need to be executed at le
 
     git submodule update --init --recursive
 
-If you have a folder gluon/dal you must remove it:
+If you have a folder `gluon/dal` you must remove it:
 
     rm -r gluon/dal
 
